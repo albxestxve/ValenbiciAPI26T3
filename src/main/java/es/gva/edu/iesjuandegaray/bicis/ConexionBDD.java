@@ -36,9 +36,9 @@ public class ConexionBDD extends JFrame {
 	private static int numEst = 3;
 
 	private static final String driver="com.mysql.cj.jdbc.Driver";
-	private static final String user="root";
-	private static final String pass="alba123";
-	private static final String url="jdbc:mysql://localhost:3306/valenbicibd";
+	private static final String user="admin";
+	private static final String pass="Alba12345!";
+	private static final String url="jdbc:mysql://valenbicibd.csbtgwmj7odf.us-east-1.rds.amazonaws.com:3306/valenbicibd";
 	
 	/**
 	 * Launch the application.
@@ -137,6 +137,10 @@ public class ConexionBDD extends JFrame {
 	        Class.forName(driver);
 
 	        con = DriverManager.getConnection(url, user, pass);
+	        
+	        System.out.println("URL = " + url);
+	        System.out.println("USER = " + user);
+	        System.out.println("PASS = " + pass);
 
 	        System.out.println("Conexión realizada correctamente");
 
