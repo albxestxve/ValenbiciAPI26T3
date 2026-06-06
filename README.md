@@ -2,11 +2,11 @@
 
 ## Descripción
 
-Aplicación desarrollada en Java para consultar información del sistema Valenbisi.
+Aplicación desarrollada en Java (IDE Eclipse) para consultar infomración acerca del servicio ofrecido por ValenBisi.
 
-Esta versión adapta el proyecto para trabajar con una base de datos MariaDB alojada en AWS RDS siguiendo las indicaciones del Anexo UD10.
+Esta versión en concreto adapta las tareas realizadas con anterioridad para que pueda trabajar con una base de datos alojada en AWS.
 
-## Tecnologías utilizadas
+## Qué he utilizado
 
 - Java
 - Eclipse
@@ -17,11 +17,11 @@ Esta versión adapta el proyecto para trabajar con una base de datos MariaDB alo
 
 ## Funcionalidades
 
-- Consulta de estaciones Valenbisi
+- Consulta de estaciones Valenbisi repartidas por Valencia
 - Obtención de datos desde API JSON
-- Conexión con base de datos
+- Conexión con base de datos 
 - Preparación para conexión en AWS
 
-## Autor
+## Autora
 
-Alba
+Alba Esteve Álvarez - 1º DAM IES Juan de Garay
